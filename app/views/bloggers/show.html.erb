@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @blogger.name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @blogger.age %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @blogger.gender %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @blogger.address %>
+</p>
+
+<%= link_to 'Edit', edit_blogger_path(@blogger) %> |
+<%= link_to 'Back', bloggers_path %>
